@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Report a Website Issue | Do It All Heating and Cooling</title>
+<meta name="description" content="">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#222523">
+<link rel="preload" href="assets/fonts/barlow-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/barlow-condensed-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="concept" role="note">Concept preview by Preferred Web Solutions, not the official website</div>
+<header class="site"><div class="wrap">
+  <a class="mark" href="index.html" aria-label="Do It All Heating and Cooling, home"><span class="slab">DO IT ALL</span><span class="sub">Heating and Cooling, LLC</span></a>
+  <a class="callpill" href="tel:+19372326314"><span class="num">937-232-6314</span></a>
+</div></header>
+<main id="main" class="legal">
+<h1>Report a website issue</h1>
+<p class="meta">Version 1.0 · Last updated October 15, 2026</p>
+
+<p>Something broken, hard to read or hard to use on this site? Tell us and we'll look at it.</p>
+<form id="rf" action="https://formspree.io/f/xgavryzg" method="POST" class="req" style="box-shadow:none;border:2px solid var(--ink);margin-top:18px">
+<input type="hidden" name="business" value="Do It All Heating and Cooling, LLC (preview site)">
+<input type="hidden" name="page" value="report.html">
+<label>Your name (optional)<input name="name" autocomplete="name"></label>
+<label>Your email (so we can reply)<input name="email" type="email" autocomplete="email" required></label>
+<label>What went wrong?<textarea name="message" required placeholder="Which page, what you tried and what happened"></textarea></label>
+<button class="send" type="submit">Send report</button>
+<p id="rmsg" role="status" tabindex="-1"></p>
+</form>
+<div id="rdone" role="status" hidden><h2>Thank you</h2><p>Your report was sent. We'll look at it and reply by email if we need more information.</p></div>
+
+<p style="margin-top:34px"><a href="index.html">← Back to the home page</a></p>
+</main>
+<footer><div class="wrap">
+  <div>
+    <p><strong>Do It All Heating and Cooling, LLC</strong> · 2877 Lantz Rd, Beavercreek, OH 45434 · <a href="tel:+19372326314">937-232-6314</a></p>
+    <p style="margin-top:6px">Concept preview by Preferred Web Solutions, not the official website.</p>
+  </div>
+  <nav class="flinks" aria-label="Legal">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms &amp; Conditions</a>
+    <a href="cookies.html">Cookie Policy</a>
+    <a href="report.html">Report a website issue</a>
+    <button type="button" data-cookie-settings>Cookie settings</button>
+  </nav>
+</div></footer>
+<script>
+(function(){var f=document.getElementById('rf');f.addEventListener('submit',function(e){e.preventDefault();var m=document.getElementById('rmsg');
+if(!f.checkValidity()){m.textContent='Please add your email and a short description.';return}
+m.textContent='Sending...';
+fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}}).then(function(r){
+ if(r.ok){f.hidden=true;var d=document.getElementById('rdone');d.hidden=false;d.setAttribute('tabindex','-1');d.focus()}else{m.textContent='Sorry, that did not send. Please email preferredwebsolutions@gmail.com.'}
+}).catch(function(){m.textContent='Sorry, that did not send. Please email preferredwebsolutions@gmail.com.'})})})();
+</script>
+<script src="assets/consent.js"></script>
+</body>
+</html>
