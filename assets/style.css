@@ -229,4 +229,3 @@ html{-webkit-text-size-adjust:100%}body{margin:0}[hidden]{display:none!important
 
 .hero h1 .hl2{display:block;color:var(--sage-deep)}
 
-@media (min-width:900px){.hero h1{font-size:clamp(44px,4.9vw,64px)}.hero h1 .hl{white-space:nowrap}}
