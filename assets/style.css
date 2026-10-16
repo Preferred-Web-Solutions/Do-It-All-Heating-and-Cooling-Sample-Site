@@ -226,3 +226,5 @@ footer strong{color:#eef1ec}
 
 html{-webkit-text-size-adjust:100%}body{margin:0}[hidden]{display:none!important}img{max-width:100%}
 .top .tbc{color:#c9d0c6}
+
+.hero h1 .hl2{display:block;color:var(--sage-deep)}
