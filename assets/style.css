@@ -54,7 +54,7 @@ nav.links a:hover{color:var(--sage-deep)}
 .hero::before{content:"";position:absolute;inset:0 0 0 auto;width:46%;background:var(--char);clip-path:polygon(22% 0,100% 0,100% 100%,0 100%)}
 .hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding-block:56px 64px}
 .eyebrow{font:700 14px/1.2 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--sage-deep)}
-.hero h1{font-size:clamp(44px,5.6vw,74px);font-weight:800;text-transform:uppercase;margin:14px 0 18px;letter-spacing:-.005em}
+.hero h1{font-size:clamp(46px,7vw,88px);font-weight:800;text-transform:uppercase;margin:14px 0 18px;letter-spacing:-.005em}
 .hero h1 .hl{display:block;color:var(--char)}
 .hero h1 .mode-word{color:var(--mode);transition:color .4s}
 .hero .lede{font-size:19px;max-width:34em;color:var(--muted)}

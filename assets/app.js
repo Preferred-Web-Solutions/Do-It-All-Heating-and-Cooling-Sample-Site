@@ -14,8 +14,8 @@
   var ticks=document.getElementById('ticks'),ns='http://www.w3.org/2000/svg';
   for(var i=0;i<=54;i++){var a=-135+i*5,p1=pt(a,96),p2=pt(a,i%9===0?86:91);var l=document.createElementNS(ns,'line');l.setAttribute('x1',p1[0]);l.setAttribute('y1',p1[1]);l.setAttribute('x2',p2[0]);l.setAttribute('y2',p2[1]);ticks.appendChild(l)}
   function arc(frac){var a0=-135,a1=-135+sweep*frac,s=pt(a0,R),e=pt(a1,R),large=(a1-a0)>180?1:0;return'M'+s[0]+' '+s[1]+' A'+R+' '+R+' 0 '+large+' 1 '+e[0]+' '+e[1]}
-  var modes={heat:{t:68,word:'Furnace',lede:'Furnace and air conditioning repair and installation for Beavercreek, Fairborn and the Dayton area. Locally owned by Erik Steinbrugge. Call him direct.',label:'Heat'},
-             cool:{t:72,word:'AC',lede:'Air conditioning and furnace repair and installation for Beavercreek, Fairborn and the Dayton area. Locally owned by Erik Steinbrugge. Call him direct.',label:'Cool'}};
+  var modes={heat:{t:68,word:'Furnace',lede:'Furnace and air conditioning repair and installation for Beavercreek, Fairborn and the Dayton area. Straight answers and fair prices, from Erik Steinbrugge.',label:'Heat'},
+             cool:{t:72,word:'AC',lede:'Air conditioning and furnace repair and installation for Beavercreek, Fairborn and the Dayton area. Straight answers and fair prices, from Erik Steinbrugge.',label:'Cool'}};
   function setMode(m){
     var d=modes[m];document.body.classList.toggle('cool',m==='cool');
     document.getElementById('modeWord').textContent=d.word;
